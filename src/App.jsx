@@ -431,10 +431,77 @@ function App() {
         </section>
       )}
 
-      <footer className="arcade-footer">
-        <span>▣ INTERVIEW BOSS FIGHT</span>
-        <span>TRAIN SMART. PLAY BOLD.</span>
-      </footer>
+      <section className="credits-section">
+  <div className="eyebrow">◈ PROJECT INFORMATION</div>
+
+  <h2>CREDITS & COPYRIGHT</h2>
+
+  <div className="credits-content">
+    <div>
+      <h3>📚 BIBLIOGRAPHY</h3>
+
+      <p>Resources used for interview preparation concepts:</p>
+
+      <ul>
+        <li>
+          <a href="https://nationalcareers.service.gov.uk/careers-advice/interview-advice"
+             target="_blank" rel="noreferrer">
+            National Careers Service – Interview Advice
+          </a>
+        </li>
+        <li>
+          <a href="https://www.indeed.com/career-advice/interviewing/star-method"
+             target="_blank" rel="noreferrer">
+            Indeed Career Guide – STAR Method
+          </a>
+        </li>
+        <li>
+          <a href="https://react.dev/"
+             target="_blank" rel="noreferrer">
+            React Documentation
+          </a>
+        </li>
+        <li>
+          <a href="https://vite.dev/guide/"
+             target="_blank" rel="noreferrer">
+            Vite Documentation
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3>© COPYRIGHT NOTICE</h3>
+
+      <p>
+        © 2026 Interview Boss Fight. All rights reserved.
+      </p>
+
+      <p>
+        The original project design, game flow and
+        project-specific content are created for
+        educational and hackathon demonstration purposes.
+      </p>
+
+      <p>
+        React, Vite and other third-party technologies
+        remain the property of their respective owners
+        and are subject to their respective licences.
+      </p>
+
+      <p>
+        Interview Boss Fight is an educational practice
+        prototype, not a professional recruitment assessment.
+      </p>
+    </div>
+  </div>
+
+  <p className="credits-disclaimer">
+    External resources belong to their respective authors.
+    This project is not affiliated with or endorsed by them.
+  </p>
+</section>
+
     </main>
   );
 }

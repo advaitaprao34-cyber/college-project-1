@@ -915,3 +915,67 @@ button {
     font-size: 7px;
   }
 }
+.credits-section {
+  width: min(1100px, 92%);
+  margin: 55px auto 25px;
+  padding: 30px;
+  border: 1px solid rgba(0, 229, 255, 0.3);
+  background: rgba(8, 20, 42, 0.8);
+  color: #dce8f5;
+}
+
+.credits-section h2 {
+  color: #00e5ff;
+  margin: 15px 0 25px;
+  font-size: 20px;
+}
+
+.credits-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 35px;
+}
+
+.credits-content h3 {
+  color: #ffd84d;
+  font-size: 13px;
+  margin-bottom: 15px;
+}
+
+.credits-content p,
+.credits-content li,
+.credits-disclaimer {
+  font-size: 12px;
+  line-height: 1.8;
+}
+
+.credits-content ul {
+  padding-left: 20px;
+}
+
+.credits-content a {
+  color: #00e5ff;
+  text-decoration: none;
+}
+
+.credits-content a:hover {
+  text-decoration: underline;
+  color: #ffd84d;
+}
+
+.credits-disclaimer {
+  margin-top: 25px;
+  border-top: 1px solid rgba(255,255,255,0.15);
+  padding-top: 15px;
+  color: #9eafc4;
+}
+
+@media (max-width: 650px) {
+  .credits-content {
+    grid-template-columns: 1fr;
+  }
+
+  .credits-section {
+    padding: 20px;
+  }
+}
